@@ -8,8 +8,8 @@ import pandas as pd
 # ---------- Part 1: Creating, Reading, Writing ----------
 
 #  1: read orders_jan.csv and orders_feb.csv
-jan = pd.read_csv('orders_jan.csv', index_col=0)
-feb = pd.read_csv('orders_feb.csv', index_col=0)
+jan = pd.read_csv('orders_jan.csv')
+feb = pd.read_csv('orders_feb.csv')
 print(jan.shape, jan.head())
 print(feb.shape, feb.head())
 
@@ -42,8 +42,8 @@ a = jan['unit_price ($)'].describe()
 b = jan['category'].describe()
 
 #  9: most common category and region in jan
-most_common_cat_jan = jan['category'].value_counts()[0]
-most_common_reg_jan = jan['region'].value_counts()[0]
+most_common_cat_jan = jan['category'].value_counts().idxmax()
+most_common_reg_jan = jan['region'].value_counts().idxmax()
 
 #  10: unit_price_vnd column (rate = 25000)
 jan['unit_price_vnd'] = jan['unit_price ($)'] * 25000
@@ -68,7 +68,6 @@ jan.groupby('region').apply(lambda df: df.loc[df['total_price'].idxmax()])
 # ---------- Part 5: Data Types and Missing Values ----------
 
 # 16: dtypes check + convert order_date to datetime
-print(jan.dtypes)
 jan['order_date'] = pd.to_datetime(jan['order_date'], errors='coerce')
 
 # 17: count missing values per column
@@ -88,18 +87,24 @@ feb.rename(columns={"qty": "quantity", "unit_price ($)": "unit_price_usd"}, inpl
 # 21: concat jan + feb into `orders`
 orders = pd.concat([jan, feb], axis=0)
 
-# TODO 22: read customers.csv and left-join onto orders on customer_id
-customers = pd.read_csv('customers.csv')
-
-# TODO 23: total spend per membership_tier (sum and mean)
+#  22: read customers.csv and left-join onto orders on customer_id
+orders = orders.merge(pd.read_csv('customers.csv'), on='customer_id', how='left')
+print(orders)
+#  23: total spend per membership_tier (sum and mean)
+total_spend = orders.groupby('membership_tier')['total_price'].agg(['sum', 'mean'])
 
 
 # ---------- Stretch goals ----------
 
-# TODO 24: top country by revenue in Feb
+#  24: top country by revenue in Feb
+top_coun_by_rev = (pd.to_datetime(feb['order_date']).dt.month == 2).value_counts().idxmax()
 
-# TODO 25: top 5 customers by total spend across both months
 
-# TODO 26: export cleaned/joined orders to orders_clean.csv
+#  25: top 5 customers by total spend across both months
+top_5_total_spend = (
+                    orders.groupby('customer_name')['total_price'].agg('sum')
+                    ).sort_values(ascending=False).head()
 
-# TODO 27: explore region missingness vs category (open-ended)
+#  26: export cleaned/joined orders to orders_clean.csv
+orders.to_csv('orders_clean.csv')
+#  27: explore region missingness vs category (open-ended)
