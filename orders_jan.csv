@@ -1,0 +1,181 @@
+order_id,order_date,customer_id,category,product,qty,unit_price ($),discount_pct,region,rating
+ORD00001,2024-01-28,C044,Electronics,Phone Stand,4,103.74,0.05,North,3.0
+ORD00002,2024-01-16,C027,Beauty,Hair Brush,1,56.79,0.1,East,2.0
+ORD00003,2024-01-22,C005,Sports,Water Bottle,1,12.34,0.1,East,1.0
+ORD00004,2024-01-21,C041,Toys,RC Car,5,94.51,0.15,North,
+ORD00005,2024-01-06,C042,Toys,Board Game,2,42.47,0.2,South,
+ORD00006,2024-01-22,C050,Sports,Water Bottle,2,82.03,0.2,East,
+ORD00007,2024-01-06,C048,Sports,Gym Towel,5,38.16,0.05,North,
+ORD00008,2024-01-07,C007,Beauty,Nail Kit,4,86.09,0.0,East,
+ORD00009,2024-01-16,C048,Sports,Jump Rope,4,70.0,0.05,East,3.0
+ORD00010,2024-01-24,C004,Home & Kitchen,Storage Box,1,55.22,0.2,West,
+ORD00011,2024-01-19,C026,Toys,Building Blocks,5,81.12,0.0,West,5.0
+ORD00012,2024-01-26,C031,Beauty,Lip Balm,1,7.61,0.0,South,
+ORD00013,2024-01-18,C058,Toys,Puzzle 500pc,3,56.31,0.15,South,4.0
+ORD00014,2024-01-08,C047,Electronics,USB-C Cable,1,115.62,0.05,South,5.0
+ORD00015,2024-01-13,C044,Home & Kitchen,Storage Box,4,36.31,0.05,West,
+ORD00016,2024-01-09,C038,Home & Kitchen,Cutting Board,3,25.33,0.05,East,5.0
+ORD00017,2024-01-14,C040,Electronics,Bluetooth Speaker,1,14.71,0.1,North,
+ORD00018,2024-01-18,C036,Electronics,Phone Stand,1,72.58,0.15,East,
+ORD00019,2024-01-14,C027,Home & Kitchen,Ceramic Mug,1,60.46,0.2,North,2.0
+ORD00020,2024-01-08,C002,Toys,Puzzle 500pc,3,59.45,0.15,East,2.0
+ORD00021,2024-01-19,C015,Sports,Gym Towel,1,21.13,0.2,North,
+ORD00022,2024-01-04,C034,Books,Planner 2024,4,93.39,0.0,North,
+ORD00023,2024-01-09,C055,Books,Sketch Pad,2,97.95,0.15,West,4.0
+ORD00024,2024-01-03,C045,Home & Kitchen,Cutting Board,5,23.93,0.1,,1.0
+ORD00025,2024-01-19,C054,Toys,Plush Bear,2,64.67,0.2,West,2.0
+ORD00026,2024-01-25,C010,Electronics,Phone Stand,4,35.18,0.0,North,5.0
+ORD00027,2024-01-22,C030,Beauty,Face Serum,2,105.57,0.1,South,5.0
+ORD00028,2024-01-09,C031,Books,Sticky Notes,1,6.6,0.0,East,
+ORD00029,2024-01-21,C027,Toys,Board Game,4,27.97,0.1,East,
+ORD00030,2024-01-15,C018,Electronics,Bluetooth Speaker,5,50.72,0.2,East,2.0
+ORD00031,2024-01-04,C001,Toys,Plush Bear,3,68.85,0.0,North,4.0
+ORD00032,2024-01-19,C007,Toys,Puzzle 500pc,3,112.3,0.15,West,
+ORD00033,2024-01-25,C018,Home & Kitchen,Cutting Board,2,31.75,0.15,East,5.0
+ORD00034,2024-01-08,C015,Sports,Yoga Mat,2,53.98,0.0,South,
+ORD00035,2024-01-05,C020,Toys,Board Game,5,17.11,,East,2.0
+ORD00036,2024-01-16,C002,Home & Kitchen,Cutting Board,1,110.91,0.1,North,
+ORD00037,2024-01-12,C060,Beauty,Face Serum,1,11.14,0.0,East,
+ORD00038,2024-01-18,C035,Books,Planner 2024,5,102.88,0.1,North,
+ORD00039,2024-01-24,C025,Toys,RC Car,2,47.97,0.0,North,
+ORD00040,2024-01-18,C039,Toys,Board Game,1,102.01,0.15,West,5.0
+ORD00041,2024-01-13,C042,Books,Planner 2024,4,66.65,0.0,West,5.0
+ORD00042,2024-01-15,C022,Books,Sketch Pad,2,21.07,0.05,North,3.0
+ORD00043,2024-01-26,C047,Beauty,Lip Balm,3,83.86,0.05,West,4.0
+ORD00044,2024-01-03,C018,Home & Kitchen,LED Lamp,3,102.58,0.05,East,4.0
+ORD00045,2024-01-18,C038,Home & Kitchen,Storage Box,1,84.9,0.0,North,
+ORD00046,2024-01-13,C047,Beauty,Hair Brush,1,112.63,0.15,West,1.0
+ORD00047,2024-01-18,C008,Toys,Board Game,5,34.14,0.2,North,
+ORD00048,2024-01-07,C036,Books,Notebook Set,3,58.59,0.15,West,3.0
+ORD00049,2024-01-12,C013,Electronics,Webcam,5,18.47,0.0,East,4.0
+ORD00050,2024-01-09,C010,Beauty,Nail Kit,2,108.31,0.15,South,
+ORD00051,2024-01-16,C022,Toys,Puzzle 500pc,1,55.36,0.2,West,1.0
+ORD00052,2024-01-08,C052,Beauty,Nail Kit,3,48.28,0.1,West,
+ORD00053,2024-01-13,C026,Toys,Board Game,1,72.65,0.0,North,1.0
+ORD00054,2024-01-11,C060,Home & Kitchen,Cutting Board,3,55.87,0.0,West,
+ORD00055,2024-01-19,C038,Electronics,Webcam,4,101.24,0.0,,1.0
+ORD00056,2024-01-01,C055,Electronics,Phone Stand,5,8.33,0.0,West,
+ORD00057,2024-01-23,C018,Home & Kitchen,Storage Box,5,5.62,,East,
+ORD00058,2024-01-13,C003,Toys,Building Blocks,1,97.11,0.2,East,5.0
+ORD00059,2024-01-24,C049,Sports,Water Bottle,1,63.02,0.0,East,
+ORD00060,2024-01-02,C037,Beauty,Face Serum,1,36.14,0.0,East,
+ORD00061,2024-01-06,C036,Electronics,Wireless Mouse,2,86.6,0.2,North,4.0
+ORD00062,2024-01-12,C035,Sports,Resistance Bands,4,78.19,0.2,West,
+ORD00063,2024-01-12,C008,Books,Planner 2024,2,113.17,0.1,East,4.0
+ORD00064,2024-01-28,C025,Electronics,Webcam,1,36.98,0.0,East,2.0
+ORD00065,2024-01-12,C009,Electronics,Bluetooth Speaker,5,72.66,0.0,North,2.0
+ORD00066,2024-01-07,C048,Home & Kitchen,Ceramic Mug,3,70.06,0.1,East,
+ORD00067,2024-01-21,C008,Sports,Resistance Bands,1,76.99,0.05,East,5.0
+ORD00068,2024-01-02,C007,Toys,Plush Bear,3,64.83,0.0,West,4.0
+ORD00069,2024-01-05,C004,Electronics,Wireless Mouse,5,11.39,0.2,South,
+ORD00070,2024-01-19,C008,Beauty,Hand Cream,1,100.12,0.15,North,5.0
+ORD00071,2024-01-20,C046,Books,Sketch Pad,3,119.48,0.2,South,4.0
+ORD00072,2024-01-12,C051,Sports,Gym Towel,4,6.23,0.15,North,
+ORD00073,2024-01-13,C020,Toys,Plush Bear,5,101.49,0.1,North,3.0
+ORD00074,2024-01-27,C003,Electronics,Webcam,4,54.88,0.05,North,3.0
+ORD00075,2024-01-03,C051,Books,Sketch Pad,1,61.37,0.0,East,
+ORD00076,2024-01-21,C033,Toys,Plush Bear,4,79.65,0.05,North,4.0
+ORD00077,2024-01-15,C019,Toys,Building Blocks,5,60.5,0.2,West,2.0
+ORD00078,2024-01-28,C056,Books,Notebook Set,5,44.17,0.1,North,3.0
+ORD00079,2024-01-26,C026,Books,Planner 2024,2,43.97,0.0,North,4.0
+ORD00080,2024-01-23,C038,Home & Kitchen,Ceramic Mug,3,5.84,0.05,East,2.0
+ORD00081,2024-01-22,C005,Toys,RC Car,5,108.88,0.15,,4.0
+ORD00082,2024-01-05,C018,Electronics,Bluetooth Speaker,4,55.61,0.1,,3.0
+ORD00083,2024-01-22,C053,Beauty,Nail Kit,5,44.85,0.15,North,3.0
+ORD00084,2024-01-16,C049,Toys,Plush Bear,3,117.46,0.0,North,3.0
+ORD00085,2024-01-04,C046,Home & Kitchen,Cutting Board,3,9.25,0.15,North,2.0
+ORD00086,2024-01-03,C038,Beauty,Nail Kit,4,104.53,0.15,North,
+ORD00087,2024-01-12,C037,Home & Kitchen,Cutting Board,3,64.18,0.0,North,4.0
+ORD00088,2024-01-13,C024,Beauty,Lip Balm,2,103.07,0.1,South,2.0
+ORD00089,2024-01-21,C033,Electronics,USB-C Cable,3,26.57,0.2,South,3.0
+ORD00090,2024-01-21,C036,Toys,Board Game,2,51.91,0.1,,1.0
+ORD00091,2024-01-02,C034,Electronics,USB-C Cable,3,62.15,0.2,South,
+ORD00092,2024-01-15,C033,Electronics,USB-C Cable,3,77.97,0.2,West,2.0
+ORD00093,2024-01-15,C013,Toys,Building Blocks,2,32.04,0.2,West,2.0
+ORD00094,2024-01-01,C017,Books,Planner 2024,4,39.43,0.2,North,2.0
+ORD00095,2024-01-28,C016,Electronics,Bluetooth Speaker,2,95.14,0.15,South,5.0
+ORD00096,2024-01-09,C058,Beauty,Nail Kit,5,95.57,0.05,North,1.0
+ORD00097,2024-01-02,C035,Beauty,Hair Brush,5,9.12,0.05,North,
+ORD00098,2024-01-22,C004,Electronics,Webcam,3,64.35,,North,2.0
+ORD00099,2024-01-01,C025,Toys,Board Game,3,39.74,0.0,South,
+ORD00100,2024-01-14,C051,Toys,Puzzle 500pc,1,63.44,0.0,South,3.0
+ORD00101,2024-01-07,C015,Books,Sketch Pad,2,32.89,0.0,East,
+ORD00102,2024-01-01,C056,Toys,RC Car,1,57.99,0.2,North,
+ORD00103,2024-01-07,C014,Electronics,Wireless Mouse,5,8.6,0.0,East,3.0
+ORD00104,2024-01-28,C052,Books,Planner 2024,5,5.55,0.0,North,5.0
+ORD00105,2024-01-11,C009,Home & Kitchen,Non-stick Pan,2,57.26,0.2,,1.0
+ORD00106,2024-01-25,C002,Home & Kitchen,LED Lamp,4,74.08,0.0,South,
+ORD00107,2024-01-21,C008,Beauty,Lip Balm,2,24.03,0.0,East,
+ORD00108,2024-01-04,C060,Toys,Puzzle 500pc,3,19.49,0.15,North,1.0
+ORD00109,2024-01-26,C025,Home & Kitchen,Ceramic Mug,5,119.2,0.0,North,3.0
+ORD00110,2024-01-28,C051,Books,Notebook Set,4,36.42,0.15,South,1.0
+ORD00111,2024-01-18,C032,Home & Kitchen,Ceramic Mug,1,31.6,0.1,South,4.0
+ORD00112,2024-01-26,C031,Sports,Jump Rope,4,88.46,0.15,,3.0
+ORD00113,2024-01-25,C010,Toys,Puzzle 500pc,1,64.83,0.15,North,4.0
+ORD00114,2024-01-07,C013,Beauty,Hair Brush,1,115.58,0.0,West,1.0
+ORD00115,2024-01-21,C033,Sports,Resistance Bands,5,106.01,0.15,East,1.0
+ORD00116,2024-01-01,C013,Beauty,Hand Cream,3,17.03,0.15,West,
+ORD00117,2024-01-25,C038,Sports,Jump Rope,3,117.61,0.0,East,5.0
+ORD00118,2024-01-02,C012,Home & Kitchen,Non-stick Pan,4,71.81,0.05,West,3.0
+ORD00119,2024-01-10,C044,Sports,Water Bottle,2,20.08,0.05,East,1.0
+ORD00120,2024-01-14,C032,Home & Kitchen,Ceramic Mug,1,91.65,0.1,North,
+ORD00121,2024-01-19,C054,Electronics,Bluetooth Speaker,3,10.19,0.0,West,2.0
+ORD00122,2024-01-18,C059,Electronics,USB-C Cable,2,38.9,0.0,West,4.0
+ORD00123,2024-01-03,C045,Sports,Gym Towel,3,20.85,0.0,East,3.0
+ORD00124,2024-01-15,C045,Books,Sticky Notes,3,24.01,0.0,West,2.0
+ORD00125,2024-01-06,C025,Beauty,Lip Balm,5,51.56,0.05,West,1.0
+ORD00126,2024-01-02,C027,Electronics,USB-C Cable,5,16.55,0.05,North,2.0
+ORD00127,2024-01-15,C020,Home & Kitchen,Non-stick Pan,5,102.9,0.15,South,
+ORD00128,2024-01-13,C032,Home & Kitchen,Non-stick Pan,1,113.1,0.0,East,5.0
+ORD00129,2024-01-14,C009,Sports,Resistance Bands,5,20.15,0.05,West,1.0
+ORD00130,2024-01-01,C020,Electronics,USB-C Cable,3,28.89,,North,2.0
+ORD00131,2024-01-28,C050,Toys,Board Game,1,51.05,0.05,North,5.0
+ORD00132,2024-01-02,C048,Beauty,Lip Balm,3,22.58,0.15,North,
+ORD00133,2024-01-13,C046,Books,Planner 2024,1,96.27,0.15,West,3.0
+ORD00134,2024-01-23,C038,Electronics,Bluetooth Speaker,5,37.3,0.2,North,
+ORD00135,2024-01-19,C005,Sports,Water Bottle,1,41.7,0.2,South,2.0
+ORD00136,2024-01-28,C027,Sports,Jump Rope,5,44.41,0.1,West,
+ORD00137,2024-01-09,C043,Home & Kitchen,Cutting Board,4,119.06,0.15,East,1.0
+ORD00138,2024-01-10,C026,Sports,Jump Rope,4,51.36,0.2,East,3.0
+ORD00139,2024-01-03,C008,Home & Kitchen,Storage Box,3,51.94,0.05,North,5.0
+ORD00140,2024-01-22,C015,Books,Planner 2024,4,7.27,0.2,West,2.0
+ORD00141,2024-01-19,C045,Toys,Board Game,1,36.64,0.0,South,2.0
+ORD00142,2024-01-02,C020,Home & Kitchen,Cutting Board,3,85.66,0.15,South,5.0
+ORD00143,2024-01-25,C022,Beauty,Hand Cream,3,83.82,,South,4.0
+ORD00144,2024-01-23,C021,Sports,Yoga Mat,5,103.21,0.0,East,2.0
+ORD00145,2024-01-21,C014,Beauty,Lip Balm,3,111.25,0.2,,1.0
+ORD00146,2024-01-13,C036,Beauty,Face Serum,3,57.49,0.15,South,
+ORD00147,2024-01-01,C028,Sports,Resistance Bands,2,98.85,0.0,North,
+ORD00148,2024-01-09,C012,Beauty,Face Serum,5,20.91,0.15,South,4.0
+ORD00149,2024-01-02,C036,Toys,Puzzle 500pc,1,76.26,0.05,,
+ORD00150,2024-01-05,C026,Beauty,Lip Balm,2,106.76,0.0,West,
+ORD00151,2024-01-28,C007,Books,Sticky Notes,2,83.91,0.1,,1.0
+ORD00152,2024-01-11,C041,Electronics,Phone Stand,4,117.32,0.0,South,
+ORD00153,2024-01-10,C043,Beauty,Lip Balm,2,100.69,0.15,South,2.0
+ORD00154,2024-01-09,C033,Beauty,Face Serum,3,107.7,0.0,North,
+ORD00155,2024-01-01,C045,Home & Kitchen,Ceramic Mug,3,5.06,0.0,West,1.0
+ORD00156,2024-01-02,C006,Beauty,Lip Balm,1,21.89,0.0,East,5.0
+ORD00157,2024-01-22,C019,Sports,Water Bottle,3,34.61,0.15,East,3.0
+ORD00158,2024-01-05,C011,Sports,Resistance Bands,2,28.96,0.1,North,
+ORD00159,2024-01-13,C012,Electronics,Webcam,1,118.89,0.05,East,1.0
+ORD00160,2024-01-08,C045,Toys,Plush Bear,5,105.38,0.05,East,
+ORD00161,2024-01-02,C023,Electronics,Bluetooth Speaker,4,100.28,0.1,North,3.0
+ORD00162,2024-01-22,C017,Sports,Jump Rope,2,53.15,0.0,East,4.0
+ORD00163,2024-01-01,C036,Electronics,Bluetooth Speaker,1,69.87,0.0,North,
+ORD00164,2024-01-14,C004,Toys,Board Game,4,24.78,0.2,South,5.0
+ORD00165,2024-01-03,C007,Sports,Water Bottle,3,27.48,0.1,North,
+ORD00166,2024-01-15,C022,Sports,Resistance Bands,1,20.49,0.1,South,
+ORD00167,2024-01-03,C004,Sports,Water Bottle,5,28.62,0.1,West,
+ORD00168,2024-01-05,C060,Electronics,Bluetooth Speaker,4,19.03,0.0,West,5.0
+ORD00169,2024-01-23,C049,Sports,Yoga Mat,2,42.25,0.05,East,
+ORD00170,2024-01-14,C008,Toys,Building Blocks,3,61.77,0.0,South,5.0
+ORD00171,2024-01-11,C027,Books,Sketch Pad,2,16.88,0.0,East,3.0
+ORD00172,2024-01-28,C035,Sports,Gym Towel,4,111.58,0.15,South,5.0
+ORD00173,2024-01-11,C019,Sports,Resistance Bands,2,68.76,0.1,South,
+ORD00174,2024-01-15,C050,Electronics,Bluetooth Speaker,4,49.75,0.2,West,
+ORD00175,2024-01-11,C056,Toys,Plush Bear,1,81.93,,West,5.0
+ORD00176,2024-01-05,C052,Books,Bookmark Pack,1,9.43,0.2,North,4.0
+ORD00177,2024-01-25,C052,Home & Kitchen,LED Lamp,2,5.63,0.05,South,5.0
+ORD00178,2024-01-03,C058,Books,Notebook Set,2,23.47,0.05,East,4.0
+ORD00179,2024-01-03,C031,Beauty,Hand Cream,5,73.34,0.0,South,1.0
+ORD00180,2024-01-04,C008,Sports,Water Bottle,3,117.95,0.15,South,4.0
